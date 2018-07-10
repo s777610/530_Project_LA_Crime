@@ -41,5 +41,5 @@ map.add_child(fg_crime_M)
 map.add_child(fg_crime_F)
 map.add_child(folium.LayerControl())
 
-map.save("Map1.html")
+map.save("index.html")
 
