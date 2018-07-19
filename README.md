@@ -10,11 +10,15 @@ This chart was created by using Matplotlib, which is a library of python for plo
 
 
 
-This is a histogram chart, which is great for quickly assessing a probability distribution. Therefore, it provides a way to users for understanding intuitively.
-This chart shows relationship between age and number of crimes.
+This is a histogram chart, which is great for quickly assessing a probability distribution. Therefore, it provides a way for users for understanding intuitively.
+This chart shows the relationship between age and number of crimes.
 
 ![distribution_of_crime](https://user-images.githubusercontent.com/35472776/42971833-6cd0e410-8b62-11e8-82e1-130dddceb2d3.png)
 
+
+
+This chart shows that the relationship between independence day of each year and criminal activities.
+I noticed that the number of criminal activities in independence day is increasing in past few years.
 
 ![independence_day](https://user-images.githubusercontent.com/35472776/42971843-6fd184ee-8b62-11e8-8cc2-70f49fdd6198.png)
 
