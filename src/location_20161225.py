@@ -13,28 +13,31 @@ data_20161225_vic_M = data_2016_1225[vic_is_M]
 data_20161225_vic_F = data_2016_1225[vic_is_F]
 
 Location_M = list(data_20161225_vic_M["Location "])
+crime_description_M = list(data_20161225_vic_M["Crime Code Description"])
 Location_F = list(data_20161225_vic_F["Location "])
-
+crime_description_F = list(data_20161225_vic_F["Crime Code Description"])
 
 # create the map object, the location indicates starting view
 map = folium.Map(location=[34.102461, -118.350515], zoom_start=10, tiles="Mapbox Bright")
 # create the feature group
 fg_crime_M = folium.FeatureGroup(name="Male Victim")
 fg_crime_F = folium.FeatureGroup(name="Female Victim")
+fg = folium.FeatureGroup(name="My Map")
 
-for location in Location_M:
+for location, description in zip(Location_M, crime_description_M):
     location_tuple = eval(location)
     # add child object to feature group, set the popup message
     # help(folium.CircleMarker) will show some info
     fg_crime_M.add_child(folium.CircleMarker(location=[location_tuple[0], location_tuple[1]],
-                                             radius=3, fill_color="blue", fill=True, fill_opacity=0.7,
-                                             color="blue"))
+                                             radius=3, popup=str(description), fill_color="blue",
+                                             fill=True, fill_opacity=0.7, color="blue"))
 
-for location in Location_F:
+for location, description in zip(Location_F, crime_description_F):
     location_tuple = eval(location)
     fg_crime_F.add_child(folium.CircleMarker(location=[location_tuple[0], location_tuple[1]],
-                                             radius=3, fill_color="red", fill=True, fill_opacity=0.7,
-                                             color="red"))
+                                             radius=3, popup=str(description), fill_color="red",
+                                             fill=True, fill_opacity=0.7, color="red"))
+
 
 # add feature group to map object
 map.add_child(fg_crime_M)
@@ -42,4 +45,3 @@ map.add_child(fg_crime_F)
 map.add_child(folium.LayerControl())
 
 map.save("index.html")
-
