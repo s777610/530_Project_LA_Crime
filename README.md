@@ -23,6 +23,12 @@ I noticed that the number of criminal activities in independence day is increasi
 ![independence_day](https://user-images.githubusercontent.com/35472776/42971843-6fd184ee-8b62-11e8-8cc2-70f49fdd6198.png)
 
 
+This is an interactive web-app, which shows the location of male and female victims.
+It web-app uses folium, which is the library of python, for making web-map.
+Folium is a very powerful Python library which is able to provide users to create several types of Leaflet maps. 
+By default, Folium can create a map in a separate HTML file. 
+Moreover, users can add features in different layers by applying FeatureGroup method.
+
 <img width="785" alt="screen shot 2018-07-19 at 2 43 49 pm" src="https://user-images.githubusercontent.com/35472776/42971849-7520ce64-8b62-11e8-8ebd-fe50545ee7d6.png">
 
 
