@@ -9,6 +9,10 @@ This chart was created by using Matplotlib, which is a library of python for plo
 ![age_varies_by_sex](https://user-images.githubusercontent.com/35472776/42971821-67866f52-8b62-11e8-93cf-4ade2ec53bae.png)
 
 
+
+This is a histogram chart, which is great for quickly assessing a probability distribution. Therefore, it provides a way to users for understanding intuitively.
+This chart shows relationship between age and number of crimes.
+
 ![distribution_of_crime](https://user-images.githubusercontent.com/35472776/42971833-6cd0e410-8b62-11e8-82e1-130dddceb2d3.png)
 
 
