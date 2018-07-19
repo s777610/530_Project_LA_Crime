@@ -1,1 +1,20 @@
+This is an interactive web-app, which shows the location of male and female victims.
 https://s777610.github.io/530_Project_LA_Crime/
+
+
+![age_varies_by_sex](https://user-images.githubusercontent.com/35472776/42971821-67866f52-8b62-11e8-93cf-4ade2ec53bae.png)
+
+
+![distribution_of_crime](https://user-images.githubusercontent.com/35472776/42971833-6cd0e410-8b62-11e8-82e1-130dddceb2d3.png)
+
+
+![independence_day](https://user-images.githubusercontent.com/35472776/42971843-6fd184ee-8b62-11e8-8cc2-70f49fdd6198.png)
+
+
+<img width="785" alt="screen shot 2018-07-19 at 2 43 49 pm" src="https://user-images.githubusercontent.com/35472776/42971849-7520ce64-8b62-11e8-8ebd-fe50545ee7d6.png">
+
+
+<img width="836" alt="screen shot 2018-07-19 at 2 43 33 pm" src="https://user-images.githubusercontent.com/35472776/42971860-78791b98-8b62-11e8-98eb-0575a720e6b1.png">
+
+
+<img width="753" alt="screen shot 2018-07-19 at 2 44 02 pm" src="https://user-images.githubusercontent.com/35472776/42971866-7c8be512-8b62-11e8-84e8-4ba8724124a6.png">
